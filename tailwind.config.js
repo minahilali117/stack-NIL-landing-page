@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'museo': ['MuseoModerno', 'cursive'],
+        'montserrat': ['Montserrat', 'sans-serif'],
       },
       colors: {
         'custom-blue': '#2A2F43',
