@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
     <section className="bg-[#181C2E] md:px-[50px] md:pt-5 relative overflow-visible min-h-screen md:h-[80px] pb-[400px]">
       {/* Header */}
       <header className="bg-[#2A2F4399] px-2 md:px-[40px] py-4 md:py-[25px] rounded-[12px] md:rounded-[20px] border-[1px] border-[#3A3F53] relative z-20">
-        <div className="max-w-sm md:max-w-7xl mx-auto flex items-center justify-between">
+        <div className="mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-1"> <img src={stackLogo} className="w-8 h-8 md:w-[40px] md:h-[40px]" />
             <span className="text-white text-[22px] md:text-[28px] font-semibold font-museo">
               STACK
@@ -55,7 +55,7 @@ const HeroSection: React.FC = () => {
       </div>
       
       {/* Hero Content */}
-      <div className="max-w-7xl mx-auto md:px-[40px] relative z-10 min-h-screen flex items-start">
+      <div className=" mx-auto md:px-[40px] relative z-10 min-h-screen flex items-start">
         <div className="max-w-sm md:max-w-[600px] mt-16">
           <h1 className="text-[34px] md:text-[70px] font-montserrat leading-[96px] font-bold mb-8 text-left">
             <span className="text-[#00FFAB]">Your Game</span> <br /> <span className="text-[#00FFAB]">Your Stack</span>
