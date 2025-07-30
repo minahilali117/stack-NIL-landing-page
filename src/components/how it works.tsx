@@ -8,7 +8,7 @@ import curlyTopArrowPurple from '../assets/images/curly top arrow purple.png';
 
 const HowStackNILWorks: React.FC = () => {
   return (
-    <section className="bg-[#181C2E] md:pt-[350px]  px-4 md:px-8 lg:px-16">
+    <section id="how-it-works" className="bg-[#181C2E] md:pt-[350px]  px-4 md:px-8 lg:px-16">
       {/* Title */}
       <div className="text-center mb-16">
         <h2 className="text-[#00FFAB] text-[28px] md:text-[50px] font-bold font-montserrat"> How Stack NIL Works? </h2>

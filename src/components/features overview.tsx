@@ -10,7 +10,7 @@ import healthAndPerformanceTrackingHover from '../assets/icons/health and perfor
 
 const AppFeaturesOverview: React.FC = () => {
   return (
-    <section className="bg-[#181C2E] py-16 md:py-[135px] md:pr-12">
+    <section id="features-overview" className="bg-[#181C2E] py-16 md:py-[135px] md:pr-12">
       {/* Title */}
       <div className="text-center mb-16">
         <h2 className="text-[#00FFAB] text-[28px] md:text-[50px] font-bold font-montserrat">

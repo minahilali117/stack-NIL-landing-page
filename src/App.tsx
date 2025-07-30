@@ -1,6 +1,7 @@
 import HeroSection from './components/hero'
 import WorksSection from './components/how it works'
 import FeaturesOverview from './components/features overview'
+import IntelligentFeatures from './components/intelligent features'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <HeroSection />
       <WorksSection />
       <FeaturesOverview />
+      <IntelligentFeatures />
     </div>
   )
 }
