@@ -1,4 +1,4 @@
-import aiAgentAlwaysAvailableToChat from '../assets/images/ai agent always available to chat.png';
+import aiAgentAlwaysAvailableToChat from '../assets/images/AI agent always available to chat.png';
 import trackYourStackScore from '../assets/images/track your stack score.png';
 import watchYourAiAgentWorkForYou from '../assets/images/watch your ai agent work for you.png';
 import curlyBottomArrowBlue from '../assets/images/curly bottom arrow blue.png';
