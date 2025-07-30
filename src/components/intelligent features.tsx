@@ -6,7 +6,7 @@ import curlyTopArrowBlue from '../assets/images/curly top arrow blue.png';
 
 const IntelligentFeatures: React.FC = () => {
   return (
-    <section className="bg-[#181C2E] md:pb-16 px-4 md:px-12">
+    <section className="bg-[#181C2E] md:pb-16 px-4 md:px-16 overflow-x-hidden">
       <div className="text-center mb-16">
         <h2 className="text-[#00FFAB] text-[28px] md:text-[50px] font-bold font-montserrat mb-6">
           Intelligent Features
@@ -93,6 +93,9 @@ const IntelligentFeatures: React.FC = () => {
         </div>
       </div>
     </section>
+
+
+
   );
 };
 

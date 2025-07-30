@@ -17,28 +17,29 @@ const HeroSection: React.FC = () => {
           
           <nav className="hidden md:flex  items-center space-x-9">
             <a
-              href="#how-it-works"
-              className="text-[#F4F6FA] font-montserrat text-[16px] md:text-[20px] hover:text-white transition-colors cursor-pointer"
+              href="#how-it-works" className="text-[#F4F6FA] font-montserrat text-[16px] md:text-[20px] hover:text-white transition-colors cursor-pointer"
               onClick={e => {
                 e.preventDefault();
-                const el = document.getElementById('how-it-works');
-                if (el) el.scrollIntoView({ behavior: 'smooth' });
+                const el = document.getElementById('how-it-works'); if (el) el.scrollIntoView({ behavior: 'smooth' });
               }}
             >
               How It Works?
             </a>
             <a
-              href="#features-overview"
-              className="text-[#F4F6FA] text-[16px] font-montserrat  md:text-[20px] hover:text-white transition-colors cursor-pointer"
+              href="#features-overview" className="text-[#F4F6FA] text-[16px] font-montserrat  md:text-[20px] hover:text-white transition-colors cursor-pointer"
               onClick={e => {
                 e.preventDefault();
-                const el = document.getElementById('features-overview');
-                if (el) el.scrollIntoView({ behavior: 'smooth' });
+                const el = document.getElementById('features-overview'); if (el) el.scrollIntoView({ behavior: 'smooth' });
               }}
             >
               Features
             </a>
-            <a href="#" className="text-[#F4F6FA] text-[16px] font-montserrat  md:text-[20px] hover:text-white transition-colors">
+            <a href="#FAQ" className="text-[#F4F6FA] text-[16px] font-montserrat  md:text-[20px] hover:text-white transition-colors cursor-pointer"
+              onClick={e => {
+                e.preventDefault();
+                const el = document.getElementById('FAQ'); if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               FAQs
             </a>
           </nav>
