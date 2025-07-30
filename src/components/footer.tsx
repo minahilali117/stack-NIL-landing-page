@@ -6,7 +6,7 @@ import instagramLogo from '../assets/icons/instagram.png';
 import tiktokLogo from '../assets/icons/tiktok.png';
 import twitterLogo from '../assets/icons/twitter.png';
 import youtubeLogo from '../assets/icons/youtube.png';
-import ButtonBody from '../assets/images/Button Body.png';
+import ButtonBody from '../assets/images/button body.png';
 
 const Footer: React.FC = () => {
   return (
