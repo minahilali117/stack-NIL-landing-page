@@ -1,6 +1,6 @@
 import stackLogo from '../assets/icons/stack logo.png';
 import appStoreBlack from '../assets/images/App Store Black.png';
-import playStoreBlack from '../assets/images/Google Play black.png';
+import playStoreBlack from '../assets/images/Google Play Black.png';
 import eclipse from '../assets/images/Ellipse.png';
 
 const HeroSection: React.FC = () => {
