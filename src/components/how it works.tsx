@@ -8,21 +8,21 @@ import curlyTopArrowPurple from '../assets/images/curly top arrow purple.png';
 
 const HowStackNILWorks: React.FC = () => {
   return (
-    <section id="how-it-works" className="bg-[#181C2E] md:pt-[350px]  px-4 md:px-16">
+    <section id="how-it-works" className="bg-[#181C2E] pt-[260px] md:pt-[350px]  px-4 md:px-16">
       {/* Title */}
-      <div className="text-center mb-16">
+      <div className="text-center mb-8 md:mb-16">
         <h2 className="text-[#00FFAB] text-[28px] md:text-[50px] font-bold font-montserrat"> How Stack NIL Works? </h2>
       </div>
 
       {/* Cards Container */}
       <div className="max-w-sm md:max-w-7xl mx-auto relative">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-9 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-9 items-center">
           
           {/* Card 1 - Connect Your Wearable */}
           <div className="relative">
-            <div className="bg-[#3A8DFF29] rounded-[18px] md:rounded-[20px] py-4 px-2 md:py-8 md:px-4 hover:border-[#3A8DFF] hover:border-[2px] h-full">
+            <div className="bg-[#3A8DFF29] rounded-[18px] md:rounded-[20px] py-4 px-3 md:py-8 md:px-4 hover:border-[#3A8DFF] hover:border-[2px] h-full">
               <div className="mb-6"> <img src={aiAgentAlwaysAvailableToChat} className="w-full h-auto rounded-lg"/> </div>
-              <div className="text-center">
+              <div className="text-center px-6 md:px-0">
                 <h3 className="text-white text-[20px] md:text-[24px] font-bold font-montserrat mb-4">
                   Your AI Agent is always available to chat
                 </h3>
@@ -40,9 +40,9 @@ const HowStackNILWorks: React.FC = () => {
 
           {/* Card 2 - Track Your Stack Score */}
           <div className="relative">
-            <div className="bg-[#00FFAB29]  rounded-[18px] md:rounded-[20px] py-4 px-2 md:py-8 md:px-4 hover:border-[2px] hover:border-[#00FFAB] h-full">
+            <div className="bg-[#00FFAB29]  rounded-[18px] md:rounded-[20px] py-4 px-3 md:py-8 md:px-4 hover:border-[2px] hover:border-[#00FFAB] h-full">
               <div className="mb-6"> <img src={trackYourStackScore} alt="Track Your Stack Score" className="w-full h-auto rounded-lg" /></div>
-              <div className="text-center">
+              <div className="text-center px-3 md:px-0">
                 <h3 className="text-white text-[20px] md:text-[24px] font-bold font-montserrat mb-4">
                   Track Your Stack Score & Performance
                 </h3>
@@ -65,9 +65,9 @@ const HowStackNILWorks: React.FC = () => {
 
           {/* Card 3 - Watch Your AI Agent Work */}
           <div className="relative">
-            <div className="bg-[#A259FF29]  rounded-[18px] md:rounded-[20px] py-4 px-2 md:py-8 md:px-4  hover:border-[2px] hover:border-[#A259FF] h-full">
+            <div className="bg-[#A259FF29]  rounded-[18px] md:rounded-[20px] py-4 px-3 md:py-8 md:px-4  hover:border-[2px] hover:border-[#A259FF] h-full">
               <div className="mb-6"> <img src={watchYourAiAgentWorkForYou} className="w-full h-auto rounded-lg" /> </div>
-              <div className="text-center">
+              <div className="text-center px-3 md:px-0">
                 <h3 className="text-white text-[20px] md:text-[24px] font-bold font-montserrat mb-4">
                   Watch your AI Agent go to work for you
                 </h3>

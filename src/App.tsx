@@ -5,7 +5,7 @@ import IntelligentFeatures from './components/intelligent features'
 import PhoneMockups from './components/phoneMockups'
 import FAQ from './components/faq'
 import Footer from './components/footer'
-import './App.css'
+// import './App.css'
 
 function App() {
   return (
