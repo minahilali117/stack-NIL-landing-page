@@ -24,8 +24,8 @@ const Header: React.FC<HeaderProps> = ({ onNavClick }) => {
 
   return (
     <>
-      <div className='px-4 md:px-[50px]'>
-        <header className="bg-[#2A2F4399] px-2 md:px-[40px] py-4 md:py-[25px] rounded-[12px] md:rounded-[20px] border-[1px] border-[#3A3F53] relative z-20">
+      <div className='fixed top-4 left-4 right-4 md:left-[50px] md:right-[50px] z-50'>
+        <header className="bg-[#2A2F43CC] backdrop-blur-sm px-2 md:px-[40px] py-4 md:py-[25px] rounded-[12px] md:rounded-[20px] border-[1px] border-[#3A3F53] relative z-20">
           <div className="mx-auto flex items-center justify-between">
             <div className="flex items-center space-x-1">
               <img src={stackLogo} className="w-8 h-8 md:w-[40px] md:h-[40px]" />

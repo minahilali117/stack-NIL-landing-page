@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-[#181C2E] pt-4 md:pt-5 relative overflow-visible max-h-[1050px] md:min-h-[90vh] md:h-[80px] md:pb-[100px]">
+    <section className="bg-[#181C2E] pt-4 md:pt-24 relative overflow-visible max-h-[1050px] md:min-h-[90vh] md:h-[80px] md:pb-[100px]">
       {/* Header */}
       <Header onNavClick={handleNavClick} />
 
@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
         {/* Mobile Ellipse */}
         <img src={eclipsemv} className="block md:hidden w-full max-w-full h-[1000px] select-none" draggable="false" />
         {/* Desktop Ellipse */}
-        <img src={eclipse} className="hidden md:block w-full md:max-w-[1800px] md:h-[1070px] select-none" draggable="false" />
+        <img src={eclipse} className="hidden md:block w-full md:max-w-[1800px] md:h-[1050px] select-none" draggable="false" />
       </div>
       
       {/* Hero Content */}
@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
             </div>
             
             {/* Right Column - Phone mockups */}
-            <div className="order-2 md:order-2 flex justify-end items-center md:items-start md:ml-auto md:mt-[20px]">
+            <div className="order-2 md:order-2 flex justify-end items-center md:items-start md:ml-auto md:mt-[70px]">
               <img src={PhoneMockups} className="h-auto w-full max-w-[400px] md:max-w-[850px] block md:animate-slide-up"  />
             </div>
           </div>
