@@ -20,7 +20,7 @@ const IntelligentFeatures: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-9 items-stretch">
           
           <div className="relative">
-            <div className="bg-[#3A8DFF29] rounded-[18px] md:rounded-[20px] p-3 md:pt-10 md:pb-8 md:px-4 border-2 border-transparent hover:border-[#3A8DFF] h-full flex flex-col">
+            <div className="bg-[#3A8DFF29] rounded-[18px] md:rounded-[20px] p-3 md:pt-10 md:pb-8 md:px-4 border-2 border-transparent hover:border-[#3A8DFF] transition-all duration-700 h-full flex flex-col">
               <div className="md:mb-10 flex justify-center">
                 <img src={aiAgentAlwaysAvailableToChat} className="w-12 h-12 md:w-[140px] md:h-[140px]" />
               </div>
@@ -45,7 +45,7 @@ const IntelligentFeatures: React.FC = () => {
           </div>
 
           <div className="relative">
-            <div className="bg-[#00FFAB29] rounded-[18px] md:rounded-[20px] p-6 md:pt-10 md:pb-8 md:px-4 border-2 border-transparent hover:border-[#00FFAB] h-full flex flex-col">
+            <div className="bg-[#00FFAB29] rounded-[18px] md:rounded-[20px] p-6 md:pt-10 md:pb-8 md:px-4 border-2 border-transparent hover:border-[#00FFAB] transition-all duration-700 h-full flex flex-col">
               <div className="md:mb-10 flex justify-center">
                 <img src={nilMatchmaking} className="w-12 h-12 md:w-[140px] md:h-[140px]" />
               </div>
@@ -66,7 +66,7 @@ const IntelligentFeatures: React.FC = () => {
           </div>
 
           <div className="relative">
-            <div className="bg-[#A259FF29] rounded-[18px] md:rounded-[20px] p-6 md:pt-8 md:pb-7 md:px-5 border-2 border-transparent hover:border-[#A259FF] h-full flex flex-col">
+            <div className="bg-[#A259FF29] rounded-[18px] md:rounded-[20px] p-6 md:pt-8 md:pb-7 md:px-5 border-2 border-transparent hover:border-[#A259FF] transition-all duration-700 h-full flex flex-col">
               <div className="mb-6 flex justify-center">
                   <img src={contentCreation} className="w-12 h-12 md:w-[176px] md:h-[176px]" />
               </div>

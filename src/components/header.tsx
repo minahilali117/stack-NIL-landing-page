@@ -87,7 +87,7 @@ const Header: React.FC<HeaderProps> = ({ onNavClick }) => {
         {/* Mobile Side Menu Overlay */}
         <div className={`md:hidden fixed inset-0 z-50 transition-opacity duration-400 ease-in-out ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
           <div className="absolute inset-0 bg-transparent" onClick={closeMobileMenu}></div>
-          <div className={`absolute top-0 right-0 w-[calc(100vw-30px)] h-full bg-[#2A2F43] flex flex-col transition-transform duration-400 ease-in-out ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}> 
+          <div className={`absolute top-0 right-0 w-full h-[445px] bg-[#2A2F43] flex flex-col transition-transform duration-400 ease-in-out ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}> 
               {/* Close Button */}
               <button 
                 className="self-end mt-10 bg-transparent border-none px-6"

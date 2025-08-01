@@ -12,13 +12,13 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-[#181C2E] pt-4 md:pt-24 relative overflow-visible max-h-[1050px] md:min-h-[90vh] md:h-[80px] md:pb-[100px]">
+    <section className="bg-[#181C2E] pt-14 md:pt-24 relative overflow-visible max-h-[1050px] md:min-h-[90vh] md:h-[80px] md:pb-[100px]">
       {/* Header */}
       <Header onNavClick={handleNavClick} />
 
       <div className="absolute top-0 left-1/2 right-5 transform -translate-x-1/2 -translate-y-[18%] z-5 pointer-events-none w-full flex justify-center">
         {/* Mobile Ellipse */}
-        <img src={eclipsemv} className="block md:hidden w-full max-w-full h-[1000px] select-none" draggable="false" />
+        <img src={eclipsemv} className="block md:hidden w-full max-w-full h-[950px] select-none" draggable="false" />
         {/* Desktop Ellipse */}
         <img src={eclipse} className="hidden md:block w-full md:max-w-[1800px] md:h-[1050px] select-none" draggable="false" />
       </div>
