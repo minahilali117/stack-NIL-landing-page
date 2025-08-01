@@ -87,17 +87,17 @@ const Header: React.FC<HeaderProps> = ({ onNavClick }) => {
         {/* Mobile Side Menu Overlay */}
         <div className={`md:hidden fixed inset-0 z-50 transition-opacity duration-400 ease-in-out ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
           <div className="absolute inset-0 bg-transparent" onClick={closeMobileMenu}></div>
-          <div className={`absolute top-0 right-0 w-full h-[445px] bg-[#2A2F43] flex flex-col transition-transform duration-400 ease-in-out ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}> 
+          <div className={`absolute top-0 right-0 w-full h-[445px] bg-[#2A2F43] flex flex-col transition-transform duration-1000 ease-in-out ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}> 
               {/* Close Button */}
               <button 
                 className="self-end mt-10 bg-transparent border-none px-6"
                 onClick={closeMobileMenu}
               >
-                <img src={Cross} alt="Close" width={16} height={16} style={{width: 16, height: 16}} />
+                <img src={Cross} alt="Close" className="w-4 h-4" />
               </button>
               
               {/* Menu Items */}
-              <nav className="flex flex-col items-center space-y-8 mt-28">
+              <nav className="flex flex-col items-center space-y-8 mt-[60px]">
                 <a
                   href="#how-it-works"
                   className="text-[#F4F6FA] text-xl font-montserrat hover:text-gray-300 transition-colors"
@@ -131,7 +131,7 @@ const Header: React.FC<HeaderProps> = ({ onNavClick }) => {
               </nav>
 
               {/* GET THE APP Button in Mobile Menu */}
-              <div className="mt-auto mb-12 px-2">
+              <div className="mt-auto mb-6 px-2">
                 <button 
                   className="w-full bg-[#3A8DFF] hover:bg-blue-600 text-white py-3 md:py-4 rounded-[10px] font-montserrat font-bold text-[16px] md:text-lg transition-colors"
                   onClick={closeMobileMenu}
