@@ -80,3 +80,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Custom animations */
+@keyframes slide-up {
+  from {
+    transform: translateY(600px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  .animate-slide-up {
+    animation: slide-up 1s ease-out forwards;
+  }
+}
