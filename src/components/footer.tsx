@@ -10,28 +10,28 @@ import ButtonBody from '../assets/images/button body.png';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#181C2E] md:pt-16 md:pb-5 px-4 md:px-8 lg:px-16">
+    <footer className="bg-[#181C2E] md:pt-16 pb-3 md:pb-5 px-4 md:px-8 lg:px-16">
       <div className="max-w-6xl mx-auto">
         {/* CTA Section */}
         <div className="text-center mb-16">
-          <h2 className="text-[#00FFAB] text-[28px] md:text-[50px] font-bold font-montserrat md:mb-16">
+          <h2 className="text-[#00FFAB] text-[28px] md:text-[50px] font-bold font-montserrat mb-[30px] md:mb-16">
             Start Building Your NIL Future Today
           </h2>
           
-          <p className="text-white text-[16px] font-semibold md:text-[20px] font-montserrat md:mb-6">
+          <p className="text-white text-[16px] font-semibold md:text-[20px] font-montserrat mb-5 md:mb-6">
             Download Stack NIL Now
           </p>
           
           {/* App Store Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
+          <div className="flex flex-row gap-2 md:gap-3 justify-center items-center">
             <button type="button" className="group relative inline-flex items-center justify-center bg-transparent border-0 outline-none ring-0 focus:outline-none focus:ring-0 active:outline-none active:ring-0 p-0 m-0 shadow-none">
-              <img  src={ButtonBody} className="w-[220px] h-[80px] object-contain"/>
-              <div className="absolute inset-0 flex items-center justify-center px-6">
-                <div className="flex items-center gap-3">
+              <img  src={ButtonBody} className="w-[164px] h-[60px] md:w-[220px] md:h-[80px] object-contain"/>
+              <div className="absolute inset-0 flex items-center justify-center px-4 md:px-6">
+                <div className="flex items-center gap-2 md:gap-3">
                   <img src={appleLogo} className="w-[26px] h-[31.5px] md:w-[36px] md:h-[43px] " />
                   <div className="text-left">
-                    <p className="text-[#F4F6FA] text-xs leading-none">Download on the</p>
-                    <p className="text-white text-[26px] font-semibold leading-none">App Store</p>
+                    <p className="text-[#F4F6FA] text-[9px] md:text-xs leading-none">Download on the</p>
+                    <p className="text-white text-[21px] md:text-[26px] font-semibold leading-none">App Store</p>
                   </div>
                 </div>
               </div>
@@ -39,13 +39,13 @@ const Footer: React.FC = () => {
             
             {/* Google Play Store Button */}
             <button type="button" className="group relative inline-flex items-center justify-center bg-transparent border-0 outline-none ring-0 focus:outline-none focus:ring-0 active:outline-none active:ring-0 p-0 m-0 shadow-none">
-              <img src={ButtonBody} className="w-[225px] h-[80px] object-contain" />
-              <div className="absolute inset-0 flex items-center justify-center px-6">
-                <div className="flex items-center gap-2">
-                  <img src={playstoreLogo} alt="Google Play Store" className=" w-[28px] h-[28px] md:w-[37.5px] md:h-[37px]" />
+              <img src={ButtonBody} className="w-[164px] h-[60px] md:w-[225px] md:h-[80px] object-contain" />
+              <div className="absolute inset-0 flex items-center justify-center px-3 md:px-6">
+                <div className="flex items-center gap-1 md:gap-2">
+                  <img src={playstoreLogo} className=" w-[28px] h-[28px] md:w-[37.5px] md:h-[37px]" />
                   <div className="text-left">
-                    <p className="text-[#F4F6FA] text-xs leading-none">GET IT ON</p>
-                    <p className="text-white text-[24px] font-semibold leading-none">Google Play</p>
+                    <p className="text-[#F4F6FA] text-[10px] md:text-xs leading-none">GET IT ON</p>
+                    <p className="text-white text-[19px] md:text-[24px] font-semibold leading-none">Google Play</p>
                   </div>
                 </div>
               </div>
@@ -54,44 +54,32 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Footer Content */}
-        <div className="flex flex-col md:flex-row justify-between md:pt-[120px] items-center gap-8">
+        <div className="flex flex-col md:flex-row justify-between pt-[0px] md:pt-[120px] items-center gap-8">
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <div className="flex flex-col md:flex-row items-center gap-2 md:gap-3">
             <img src={stackLogo} className="w-[59px] h-[59px]" />
-            <span className="text-white text-[41px] font-bold font-museo">STACK</span>
+            <span className="text-white text-[41px] font-semibold font-museo">STACK</span>
           </div>
 
           {/* Social Media Icons */}
           <div className="flex items-center gap-6">
-            <span
-              className="hover:scale-110 transition-transform duration-200"
-              aria-label="Instagram"
-            >
+            <span className="hover:scale-110 transition-transform duration-200" aria-label="Instagram">
               <img src={instagramLogo} alt="Instagram" className="w-6 h-6" />
             </span>
-            <span
-              className="hover:scale-110 transition-transform duration-200"
-              aria-label="TikTok"
-            >
+            <span className="hover:scale-110 transition-transform duration-200" aria-label="TikTok">
               <img src={tiktokLogo} alt="TikTok" className="w-6 h-6" />
             </span>
-            <span
-              className="hover:scale-110 transition-transform duration-200"
-              aria-label="Twitter"
-            >
+            <span className="hover:scale-110 transition-transform duration-200" aria-label="Twitter">
               <img src={twitterLogo} alt="Twitter" className="w-6 h-6" />
             </span>
-            <span
-              className="hover:scale-110 transition-transform duration-200"
-              aria-label="YouTube"
-            >
+            <span className="hover:scale-110 transition-transform duration-200" aria-label="YouTube">
               <img src={youtubeLogo} alt="YouTube" className="w-6 h-6" />
             </span>
           </div>
         </div>
-        <div className="border border-[#3A4158] md:mt-12"></div>
+        <div className="border border-[#3A4158] mt-7 md:mt-12"></div>
         {/* Copyright */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-6 md:mt-12">
           <p className="text-[#9CA3AF] text-sm font-montserrat">
             ©2025 Stack NIL. All rights reserved.
           </p>
