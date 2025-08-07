@@ -12,7 +12,7 @@ const IntelligentFeatures: React.FC = () => {
           Intelligent Features
         </h2>
         <p className="text-[#F4F6FA] text-[14px] md:text-[20px] font-montserrat md:max-w-5xl mx-auto leading-relaxed">
-            Transform your digital experience by understanding your unique profile to deliver unparalleled assistance and opportunities
+            Built to understand you. Designed to deliver precision support, smarter tools, and opportunities that scale with you.
         </p>
       </div>
 
